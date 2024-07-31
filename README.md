@@ -1,14 +1,13 @@
-###PDF Scanning Tool
+# PDF Scanning Tool
 
-
-##Overview
+## Overview
 
 This tool is designed to scan PDF files for potential malicious content and generate detailed reports based on various types of analysis. It uses multiple libraries and techniques to achieve its goals, including:
 
 PyMuPDF -  for text extraction and embedded file analysis
 Yara - for rule-based malware detection
 
-##Requirements
+## Requirements
 
 To use this tool, you need to have the following Python packages installed:
 
@@ -23,8 +22,7 @@ You also need to have Yara installed and properly configured on your system.
 
 
 
-
-##Functionality
+## Functionality
 
 1. Extract Text from PDF using PyMuPDF
 
@@ -38,7 +36,7 @@ Parameters:
 Returns:
 - `text` (str): Extracted text from the PDF.
 
-Exceptions:Handles and prints any errors encountered during extraction.
+Exceptions: Handles and prints any errors encountered during extraction.
 
 2. Scan Embedded Files
 
@@ -71,7 +69,7 @@ Returns:
 Exceptions: Handles and prints any errors encountered during scanning.
 
 
-##Command Line Usage
+### Command Line Usage
 
 To run the tool from the command line, use the following syntax:
 
@@ -83,7 +81,7 @@ Parameters:
 - `<script_name>.py`: Name of the Python script file.
 - `<pdf_path>`: Path to the PDF file you want to scan.
 
- #Example
+ #### Example
 
 ```bash
 python pdf_scanner.py example.pdf
@@ -91,7 +89,7 @@ python pdf_scanner.py example.pdf
 
 
 This documentation should provide a comprehensive understanding of how to use the tool, its functions, and how to interpret its outputs.
-## Description of Our PDF Scanning Tool
+### Description of Our PDF Scanning Tool
 Our tool is designed to scan PDF files for security threats by checking them against a set of predefined YARA rules. The tool performs the following functions:
 
 ### PDF Scanning: 
