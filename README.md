@@ -24,7 +24,7 @@ You also need to have Yara installed and properly configured on your system.
 
 ## Functionality
 
-1. Extract Text from PDF using PyMuPDF
+### 1. Extract Text from PDF using PyMuPDF
 
 Function: `extract_text_pymupdf(pdf_path)`
 Description: Extracts all the text from a PDF file using PyMuPDF.
@@ -38,21 +38,8 @@ Returns:
 
 Exceptions: Handles and prints any errors encountered during extraction.
 
-2. Scan Embedded Files
 
-Function: `scan_embedded_files(embedded_files)`
-
-Description:  Scans each extracted embedded file for threats using ClamAV.
-
-Parameters: `embedded_files` (list of str): 
-List of paths to embedded files.
-
-Returns:  `results` (list of tuples): Each tuple contains the file path, whether it's malicious, and the threat signature.
-
-Exceptions: Handles and prints any errors encountered during scanning.
-
-
-3. Scan File with Yara
+### 2. Scan File with Yara
 
 Function:  `scan_with_yara(file_path, rules)`
 
