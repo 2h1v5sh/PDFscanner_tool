@@ -74,6 +74,22 @@ Parameters:
 python pdf_scanner.py example.pdf
 ```
 
+### Facing Issues - Use Venv
+Using a Virtual Environment
+Creating and using a virtual environment is often the easiest and safest approach. This isolates your Python packages from the system packages, preventing conflicts.
+
+Create a Virtual Environment:
+```bash
+python3 -m venv path/to/venv
+```
+Activate the Virtual Environment:
+```bash
+source path/to/venv/bin/activate
+```
+Deactivate the Virtual Environment:
+```bash
+deactivate
+```
 
 This documentation should provide a comprehensive understanding of how to use the tool, its functions, and how to interpret its outputs.
 ### Description of Our PDF Scanning Tool
