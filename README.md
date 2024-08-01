@@ -112,3 +112,7 @@ What Are YARA Rules?
 ### YARA (Yet Another Recursive Acronym) 
 is a tool used to identify and classify malware samples based on specific patterns and characteristics. YARA rules are used to define these patterns, which can include text strings, byte sequences, or other data patterns that may be indicative of malicious behavior. 
 
+### Working of tool -
+
+https://github.com/user-attachments/assets/8a3f43dd-f485-4c13-9593-8c7d39c8f609
+
