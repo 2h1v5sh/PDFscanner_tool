@@ -91,6 +91,12 @@ Deactivate the Virtual Environment:
 deactivate
 ```
 
+#### Video tutorial-
+
+https://github.com/user-attachments/assets/1b385607-81db-4a2e-a8df-4a6b60d856a2
+
+
+
 This documentation should provide a comprehensive understanding of how to use the tool, its functions, and how to interpret its outputs.
 ### Description of Our PDF Scanning Tool
 Our tool is designed to scan PDF files for security threats by checking them against a set of predefined YARA rules. The tool performs the following functions:
